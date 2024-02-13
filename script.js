@@ -76,7 +76,7 @@ function calculateRhombusArea(){
     const RhombusArea=0.5*rohomvalue*Romvalueh
     console.log(RhombusArea);
 
-    document.getElementById('calvalue').innerText= 'Area of Triangle is : ' + RhombusArea;
+    document.getElementById('calvalue').innerText= 'Area of Rhombus is : ' + RhombusArea;
     
     
     
@@ -100,7 +100,30 @@ function calculatePentagonArea(){
     const PentagonArea=0.5*Pentagonvalue*Pentagonvalueh
     console.log(PentagonArea);
 
-    document.getElementById('calvalue').innerText= 'Area of Triangle is : ' + PentagonArea;
+    document.getElementById('calvalue').innerText= 'Area of Pentagon is : ' + PentagonArea;
+    
+    
+    
+}
+
+//Ellipse
+function calculateEllipseArea(){
+    
+
+    const EllipseA=document.getElementById('Ellipse_a');
+    const Ellipsevalue=parseInt(EllipseA.value);
+
+  
+
+    const EllipseBase=document.getElementById('Ellipse_base');
+    const Ellipsevalueh=parseInt(EllipseBase.value);
+
+
+
+    const EllipseArea=3.1416*Ellipsevalue*Ellipsevalueh
+    console.log(EllipseArea);
+
+    document.getElementById('calvalue').innerText= 'Area of Ellipse is : ' + EllipseArea;
     
     
     
